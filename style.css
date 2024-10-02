@@ -6,6 +6,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+h1{
+    text-align: center;
+}
+
 .showing {
     display: none; /* Hidden initially */
     opacity: 0;    /* Set initial opacity */

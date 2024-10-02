@@ -27,6 +27,8 @@ button.addEventListener("click",()=>{
         Branch.value="";
         Year.value="";
         displayNamelist(); 
+        showing.classList.remove("active");
+    
     }
 })
 
