@@ -1,0 +1,28 @@
+body{
+    width: 99vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showing {
+    display: none; /* Hidden initially */
+    opacity: 0;    /* Set initial opacity */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.active {
+    display: block !important;  /* Make the div visible */
+    opacity: 1; /* Fade in smoothly */
+}
+
+input{
+    height: 30px;
+}
+.content{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
